@@ -1,0 +1,63 @@
+body {
+	margin: 0 0 25px 0;
+	border: 0;
+	padding: 0;
+	background-color: #fcf0f1;
+}
+
+nav {
+	background-color: steelblue !important;
+	border: none !important;
+}
+
+h1 {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+}
+
+.jumboFont {
+	position: relative;
+	margin: 15px auto;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.navButtons, .navbar-brand{
+	color: #ffffff !important;
+}
+
+.navButtons:hover{
+	border: solid;
+}
+
+.jumbotron{
+	margin: 0 auto;
+	margin-top: -20px;
+	background-image: url(https://www.thewealthadvisor.com/sites/default/files/2017-06/global-business_0.jpg);
+	height: 400px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+}
+
+button{
+	background-color: red !important;
+	border: none !important;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 45px 0 0 0;
+}
+
+.alertArticles {
+	position: relative;
+	margin: 25px 0 0 0;
+	text-align: center;
+	border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+	padding: 20px 0 20px 0;
+	background-color: #f6f6f6;
+}
