@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 if (process.env.PORT){
 	//get path
-	mongoose.connect('heroku path');
+	mongoose.connect('mongodb://heroku_rlbc9mf8:4gpkq8i5gbop5ltc65kojomsic@ds141474.mlab.com:41474/heroku_rlbc9mf8');
 } else {
 	mongoose.connect('mongodb://localhost/test');
 }
